@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Switch: Günlük Hatırlatma Bildirimi -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Günlük Hatırlatma Bildirimi" />
+
+        <!-- Saat Seçici -->
+        <Button
+            android:id="@+id/button_pick_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hatırlatma Saatini Seç (Varsayılan: 08:00)" />
+
+        <!-- Dropdown: Varsayılan Meditasyon Süresi -->
+        <Spinner
+            android:id="@+id/spinner_meditation_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:scrollbarSize="50dp"
+            android:spinnerMode="dropdown" />
+
+        <!-- Switch: Karanlık Mod -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karanlık Mod" />
+
+        <!-- Button: Hakkında -->
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hakkında / Destek" />
+
+    </LinearLayout>
+</ScrollView>

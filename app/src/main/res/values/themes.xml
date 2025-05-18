@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mediapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Buraya özel tema ayarları eklenebilir -->
+    </style>
+
+    <!-- Bu satır, asıl temayı Base.Theme'den türetir -->
+    <style name="Theme.Mediapp" parent="Base.Theme.Mediapp" />
+</resources>
